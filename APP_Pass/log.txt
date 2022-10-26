@@ -1,0 +1,6 @@
+[27/07/2022 21:34:40] | Login | Chema | josemaria.chauchina@gmail.com 
+[27/07/2022 21:50:03] | Login | Chema | josemaria.chauchina@gmail.com | 127.0.0.1 
+[29/07/2022 10:48:21] | Login | Chema | josemaria.chauchina@gmail.com | 127.0.0.1 
+[01/08/2022 08:45:48] | Login | chema | josemaria.chauchina@gmail.com | 127.0.0.1 
+[02/08/2022 07:31:46] | Login | Chema | josemaria.chauchina@gmail.com | 127.0.0.1 
+[02/08/2022 12:31:34] | Login | Chema | josemaria.chauchina@gmail.com | 127.0.0.1 

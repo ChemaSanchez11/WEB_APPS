@@ -1,0 +1,73 @@
+body {
+    background: #000000 !important;
+}
+
+h1{
+    color: white;
+    font-family: Gugi;
+}
+h3{
+    font-family: Bungee;
+}
+
+.titulos {
+    color: #09cc96;
+}
+
+/*Botones*/
+
+ul {
+    margin: 0;
+    padding: 0 !important;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #171515;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #09cc96;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+ul li a:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #09cc96;
+    filter: blur(3px);
+}
+
+ul li a:hover {
+    color: #37deaf;
+    box-shadow: 0 0 15px #09cc96;
+    text-shadow: 0 0 15px #09cc96;
+}
+
